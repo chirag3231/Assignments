@@ -24,3 +24,13 @@ public class MainClass
         }
     }
 }
+
+How Many Rows You Want In Your Pyramid?
+5
+Here Is Your Pyramid
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+BUILD SUCCESSFUL (total time: 3 seconds)
