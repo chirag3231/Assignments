@@ -1,0 +1,49 @@
+Student.java
+
+
+package program1;
+public class student 
+{
+
+   public student(int i, String def, int i0) 
+    {
+         System.out.println(i+" "+def+" "+i0);
+    }  
+}
+
+
+Arraylisst.java
+
+package program1;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class arraylisst 
+{
+    
+    public void implement()
+    {
+        ArrayList <student> al=new <student> ArrayList();
+        student ss=new student(1,"chirag",89);
+         student ss1=new student(2,"abc",89);
+          student ss2=new student(3,"def",89);
+           student ss3=new student(4,"chirag",89);
+      
+        Iterator itr= al. iterator();
+        while(itr.hasNext())
+        {
+            System.out.println(itr.next());
+        }}
+    public static void main(String[] args)
+    {
+        arraylisst oo=new arraylisst();
+        oo.implement();
+    }
+}
+
+run:
+1 chirag 89
+2 abc 89
+3 def 89
+4 chirag 89
+BUILD SUCCESSFUL (total time: 0 seconds)
