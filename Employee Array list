@@ -1,0 +1,46 @@
+Employeee.java
+
+package program1;
+public class employeee 
+{
+
+    employeee(int i, String chirag, String string, String a, int i0, int i1) 
+    {
+        System.out.println(i+" "+chirag+" "+string+" "+a+" "+i0+" "+i1);
+          }
+}
+
+ArrayLissst.java
+package program1;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class arraylissst 
+{
+    
+    public void implement()
+    {
+        ArrayList <employeee> al=new <employeee> ArrayList();
+        employeee ss=new employeee(1,"chirag","1/01/2015","A",89,7000);
+         employeee ss1=new employeee(2,"chirag","4/02/2015","A",89,17000);
+          employeee ss2=new employeee(3,"chirag","1/01/2015","A",89,27000);
+           employeee ss3=new employeee(4,"chirag","10/01/2015","A",89,37000);
+      
+        Iterator itr= al. iterator();
+        while(itr.hasNext())
+        {
+            System.out.println(itr.next());
+        }}
+    public static void main(String[] args)
+    {
+        arraylissst oo=new arraylissst();
+        oo.implement();
+    }
+}
+
+run:
+1 chirag 1/01/2015 A 89 7000
+2 chirag 4/02/2015 A 89 17000
+3 chirag 1/01/2015 A 89 27000
+4 chirag 10/01/2015 A 89 37000
+BUILD SUCCESSFUL (total time: 0 seconds)
